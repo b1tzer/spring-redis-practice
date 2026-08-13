@@ -51,6 +51,11 @@ export default withMermaid(
           collapsed: false,
           items: [
             { text: '概览', link: '/01-spring-data-redis/' },
+            { text: '第1章 快速接入', link: '/01-spring-data-redis/chapter-01-quick-start' },
+            { text: '第2章 序列化选型', link: '/01-spring-data-redis/chapter-02-serialization' },
+            { text: '第3章 五种数据结构操作', link: '/01-spring-data-redis/chapter-03-basic-types' },
+            { text: '第4章 高级类型操作', link: '/01-spring-data-redis/chapter-04-advanced-types' },
+            { text: '第5章 实战演练', link: '/01-spring-data-redis/chapter-05-hands-on' },
           ]
         },
         {
