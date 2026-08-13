@@ -63,6 +63,11 @@ export default withMermaid(
           collapsed: false,
           items: [
             { text: '概览', link: '/02-connection-pool/' },
+            { text: '第1章 Lettuce vs Jedis', link: '/02-connection-pool/chapter-01-lettuce-vs-jedis' },
+            { text: '第2章 连接池配置', link: '/02-connection-pool/chapter-02-pool-config' },
+            { text: '第3章 线程模型落地', link: '/02-connection-pool/chapter-03-thread-model' },
+            { text: '第4章 超时与重试', link: '/02-connection-pool/chapter-04-timeout-retry' },
+            { text: '第5章 持久化与配置', link: '/02-connection-pool/chapter-05-persistence-config' },
           ]
         },
         {
@@ -70,6 +75,11 @@ export default withMermaid(
           collapsed: false,
           items: [
             { text: '概览', link: '/03-spring-cache/' },
+            { text: '第1章 Spring Cache 抽象', link: '/03-spring-cache/chapter-01-cache-annotation' },
+            { text: '第2章 集成 Redis', link: '/03-spring-cache/chapter-02-redis-integration' },
+            { text: '第3章 缓存穿透', link: '/03-spring-cache/chapter-03-penetration' },
+            { text: '第4章 缓存击穿', link: '/03-spring-cache/chapter-04-breakdown' },
+            { text: '第5章 缓存雪崩与一致性', link: '/03-spring-cache/chapter-05-avalanche-consistency' },
           ]
         },
         {
