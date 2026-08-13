@@ -2,10 +2,10 @@
 
 > 对应主站《Redis World》第五卷「实战与运维」。主站用 Python 演示三个场景，本卷用 Spring Boot 复刻：缓存接口、分布式锁、限流器，形成可运行的 Java 项目。
 
-## 章节规划
+## 章节
 
-- 第1章 项目骨架 — Spring Boot 工程搭建与依赖
-- 第2章 缓存接口 — Cache-Aside 模式的 Java 实现
-- 第3章 分布式锁 — Redisson 扣减库存
-- 第4章 限流器 — 滑动窗口限流的 Java 实现
-- 第5章 串联验证与压测 — 单元测试与简单压测对比
+- [第1章 项目骨架](/05-hands-on-project/chapter-01-project-skeleton) — Spring Boot 工程搭建与依赖
+- [第2章 缓存接口](/05-hands-on-project/chapter-02-cache-service) — Cache-Aside 模式的 Java 实现
+- [第3章 分布式锁](/05-hands-on-project/chapter-03-distributed-lock) — Redisson 扣减库存
+- [第4章 限流器](/05-hands-on-project/chapter-04-rate-limiter) — 滑动窗口限流的 Java 实现
+- [第5章 串联验证与压测](/05-hands-on-project/chapter-05-verify-benchmark) — 单元测试与简单压测对比

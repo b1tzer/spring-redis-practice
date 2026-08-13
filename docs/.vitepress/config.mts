@@ -87,6 +87,11 @@ export default withMermaid(
           collapsed: false,
           items: [
             { text: '概览', link: '/04-distributed-ha/' },
+            { text: '第1章 Redisson 分布式锁', link: '/04-distributed-ha/chapter-01-redisson-lock' },
+            { text: '第2章 分布式锁的坑', link: '/04-distributed-ha/chapter-02-lock-pitfalls' },
+            { text: '第3章 主从 / 哨兵接入', link: '/04-distributed-ha/chapter-03-sentinel' },
+            { text: '第4章 集群接入', link: '/04-distributed-ha/chapter-04-cluster' },
+            { text: '第5章 其他分布式组件', link: '/04-distributed-ha/chapter-05-other-components' },
           ]
         },
         {
@@ -94,6 +99,11 @@ export default withMermaid(
           collapsed: false,
           items: [
             { text: '概览', link: '/05-hands-on-project/' },
+            { text: '第1章 项目骨架', link: '/05-hands-on-project/chapter-01-project-skeleton' },
+            { text: '第2章 缓存接口', link: '/05-hands-on-project/chapter-02-cache-service' },
+            { text: '第3章 分布式锁', link: '/05-hands-on-project/chapter-03-distributed-lock' },
+            { text: '第4章 限流器', link: '/05-hands-on-project/chapter-04-rate-limiter' },
+            { text: '第5章 串联验证与压测', link: '/05-hands-on-project/chapter-05-verify-benchmark' },
           ]
         },
       ],
